@@ -1,0 +1,15 @@
+C:\Users\ethan\Desktop\School\School\higherlower\bin\Debug\net6.0\higherlower.exe
+C:\Users\ethan\Desktop\School\School\higherlower\bin\Debug\net6.0\higherlower.deps.json
+C:\Users\ethan\Desktop\School\School\higherlower\bin\Debug\net6.0\higherlower.runtimeconfig.json
+C:\Users\ethan\Desktop\School\School\higherlower\bin\Debug\net6.0\higherlower.dll
+C:\Users\ethan\Desktop\School\School\higherlower\bin\Debug\net6.0\higherlower.pdb
+C:\Users\ethan\Desktop\School\School\higherlower\obj\Debug\net6.0\higherlower.csproj.AssemblyReference.cache
+C:\Users\ethan\Desktop\School\School\higherlower\obj\Debug\net6.0\higherlower.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ethan\Desktop\School\School\higherlower\obj\Debug\net6.0\higherlower.AssemblyInfoInputs.cache
+C:\Users\ethan\Desktop\School\School\higherlower\obj\Debug\net6.0\higherlower.AssemblyInfo.cs
+C:\Users\ethan\Desktop\School\School\higherlower\obj\Debug\net6.0\higherlower.csproj.CoreCompileInputs.cache
+C:\Users\ethan\Desktop\School\School\higherlower\obj\Debug\net6.0\higherlower.dll
+C:\Users\ethan\Desktop\School\School\higherlower\obj\Debug\net6.0\refint\higherlower.dll
+C:\Users\ethan\Desktop\School\School\higherlower\obj\Debug\net6.0\higherlower.pdb
+C:\Users\ethan\Desktop\School\School\higherlower\obj\Debug\net6.0\higherlower.genruntimeconfig.cache
+C:\Users\ethan\Desktop\School\School\higherlower\obj\Debug\net6.0\ref\higherlower.dll
