@@ -4,20 +4,25 @@ namespace higherlower {
     class Card {
         int cardNumber = 0;
         int cardOld = 0;
+        ///<summary>Converts cardOld to the current cardNumber and then changes cardNumber to a random number between 1 and 13</summary>
         public void NewCard() {
             cardOld = cardNumber;
             Random rand = new Random();
             cardNumber = rand.Next(1, 14);
         }
+        ///<summary>Displays the current card</summary>
         public void DisplayCard() {
             Console.WriteLine($"The card is [{cardNumber}]");
         }
+        ///<summary>Displays the current card, with a different text format</summary>
         public void DisplayNext() {
             Console.WriteLine($"The next card was [{cardNumber}]");
         }
+        ///<summary>Gets the value of cardNumber</summary>
         public int GetCardNumber() {
             return cardNumber;
         }
+        ///<summary>Gets the value of cardOld</summary>
         public int GetCardOld() {
             return cardOld;
         }
@@ -27,6 +32,7 @@ namespace higherlower {
         string guess = "";
         string retry = "y";
         public bool autoretry = false;
+        ///<summary>Allows the user to make a guess</summary>
         public void Guess() {
             while(guess?.ToLower() != "l" && guess?.ToLower() != "h") {
                 Console.Write("Higher or Lower [H/L]: ");
@@ -36,20 +42,23 @@ namespace higherlower {
                 }
             }
         }
+        ///<summary>Automates the guessing process</summary>
         public void Guess(Card card) {
             Console.Write("Higher or Lower [H/L]: ");
             if(card.GetCardOld() >= 8) {
-                Thread.Sleep(500);
+                Thread.Sleep(250);
                 Console.WriteLine("L");
                 guess = "l";
+                Thread.Sleep(250);
             }
             else if(card.GetCardOld() <= 6) {
-                Thread.Sleep(500);
+                Thread.Sleep(250);
                 Console.WriteLine("H");
                 guess = "h";
+                Thread.Sleep(250);
             }
             else if(card.GetCardOld() == 7) {
-                Thread.Sleep(500);
+                Thread.Sleep(250);
                 Random r = new Random();
                 if(r.Next(0, 2) == 0) {
                     Console.WriteLine("L");
@@ -59,9 +68,11 @@ namespace higherlower {
                     Console.WriteLine("H");
                     guess = "h";
                 }
+                Thread.Sleep(250);
             }
         }
-        public bool GuessTest(Card card) {
+        ///<summary>Checks if the guess is correct in relation to the current cardNumber</summary>
+        private bool GuessTest(Card card) {
             if((card.GetCardOld() <= card.GetCardNumber()) && (guess.ToLower() == "h")) {
                 guess = "";
                 return true;
@@ -75,6 +86,7 @@ namespace higherlower {
                 return false;
             }
         }
+        ///<summary>Adds or removes the points in relation to the guess from GuessTest()</summary>
         public void ChangePoints(Card card) {
             if(GuessTest(card)) {
                 points += 100;
@@ -83,18 +95,21 @@ namespace higherlower {
                 points -= 75;
             }
         }
+        ///<summary>Gets the current player score</summary>
         public int GetPoints() {
             return points;
         }
+        ///<summary>Gives prompt to whether the player wishes to keep playing or not</summary>
         public bool KeepPlaying() {
             Console.WriteLine("Do you wish to keep playing [Y/N]? ");
             if(!autoretry) {
                 retry = Console.ReadLine()!;
             }
             else {
-                Thread.Sleep(2000);
+                Thread.Sleep(1000);
                 Console.WriteLine("Y");
                 retry = "y";
+                Thread.Sleep(1000);
             }
             if(retry?.ToLower() == "y") {
                 return true;
@@ -104,6 +119,7 @@ namespace higherlower {
                 return false;
             }
         }
+        ///<summary>Gets whether the player wishes to continue playing</summary>
         public string GetRetry() {
             return retry;
         }
@@ -113,7 +129,7 @@ namespace higherlower {
             Player a = new Player();
             Card c = new Card();
             c.NewCard();
-            //a.autoretry = true; // Comment this line out if you do not wish to automate the process, or uncomment it if you want it to be automated
+            a.autoretry = true; // Comment this line out if you do not wish to automate the process
             while(a.GetPoints() > 0 && a.GetRetry().ToLower() == "y") {
                 c.DisplayCard();
                 c.NewCard();
