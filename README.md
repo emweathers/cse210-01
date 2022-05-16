@@ -1,2 +1,2 @@
 # cse210-01
-For Programming Class
+For Programming Class, Programming with Classes
