@@ -31,7 +31,10 @@ namespace higherlower {
         int points = 300;
         string guess = "";
         string retry = "y";
+        ///<summary>Whether KeepPlaying() should perform automatically</summary>
         public bool autoretry = false;
+        ///<summary>If true, the timers are off</summary>
+        public bool superspeed = false;
         ///<summary>Allows the user to make a guess</summary>
         public void Guess() {
             while(guess?.ToLower() != "l" && guess?.ToLower() != "h") {
@@ -46,19 +49,19 @@ namespace higherlower {
         public void Guess(Card card) {
             Console.Write("Higher or Lower [H/L]: ");
             if(card.GetCardOld() >= 8) {
-                Thread.Sleep(250);
+                if(!superspeed) {Thread.Sleep(250);}
                 Console.WriteLine("L");
                 guess = "l";
-                Thread.Sleep(250);
+                if(!superspeed) {Thread.Sleep(250);}
             }
             else if(card.GetCardOld() <= 6) {
-                Thread.Sleep(250);
+                if(!superspeed) {Thread.Sleep(250);}
                 Console.WriteLine("H");
                 guess = "h";
-                Thread.Sleep(250);
+                if(!superspeed) {Thread.Sleep(250);}
             }
             else if(card.GetCardOld() == 7) {
-                Thread.Sleep(250);
+                if(!superspeed) {Thread.Sleep(250);}
                 Random r = new Random();
                 if(r.Next(0, 2) == 0) {
                     Console.WriteLine("L");
@@ -68,7 +71,7 @@ namespace higherlower {
                     Console.WriteLine("H");
                     guess = "h";
                 }
-                Thread.Sleep(250);
+                if(!superspeed) {Thread.Sleep(250);}
             }
         }
         ///<summary>Checks if the guess is correct in relation to the current cardNumber</summary>
@@ -106,10 +109,10 @@ namespace higherlower {
                 retry = Console.ReadLine()!;
             }
             else {
-                Thread.Sleep(750);
+                if(!superspeed) {Thread.Sleep(750);}
                 Console.Write("Y");
                 retry = "y";
-                Thread.Sleep(250);
+                if(!superspeed) {Thread.Sleep(250);}
                 Console.WriteLine();
             }
             if(retry?.ToLower() == "y") {
@@ -130,7 +133,7 @@ namespace higherlower {
             Player a = new Player();
             Card c = new Card();
             c.NewCard();
-            //a.autoretry = true; // Comment this line out if you do not wish to automate the process, or uncomment it if you want it to be automated
+            //a.autoretry = true; a.superspeed = true; // Comment this line out if you do not wish to automate the process, or uncomment it if you want it to be automated
             while(a.GetPoints() > 0 && a.GetRetry().ToLower() == "y") {
                 c.DisplayCard();
                 c.NewCard();
