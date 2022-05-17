@@ -106,10 +106,11 @@ namespace higherlower {
                 retry = Console.ReadLine()!;
             }
             else {
-                Thread.Sleep(1000);
-                Console.WriteLine("Y");
+                Thread.Sleep(750);
+                Console.Write("Y");
                 retry = "y";
-                Thread.Sleep(1000);
+                Thread.Sleep(250);
+                Console.WriteLine();
             }
             if(retry?.ToLower() == "y") {
                 return true;
@@ -129,7 +130,7 @@ namespace higherlower {
             Player a = new Player();
             Card c = new Card();
             c.NewCard();
-            //a.autoretry = true; // Comment this line out if you do not wish to automate the process, or uncomment it if you want it to be automated
+            a.autoretry = true; // Comment this line out if you do not wish to automate the process, or uncomment it if you want it to be automated
             while(a.GetPoints() > 0 && a.GetRetry().ToLower() == "y") {
                 c.DisplayCard();
                 c.NewCard();
