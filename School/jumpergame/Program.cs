@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace jumpergame {
     class Player {
@@ -70,7 +70,7 @@ namespace jumpergame {
             Word word = new Word();
             Validator validator = new Validator();
             Graphics graphics = new Graphics();
-            Console.WriteLine(word.selectedWord);
+            //Console.WriteLine(word.selectedWord);
             Console.WriteLine(player.guessedWord);
             while(player.attempts > 0 && player.guessWordStr != word.selectedWord) {
                 graphics.Update(player);
