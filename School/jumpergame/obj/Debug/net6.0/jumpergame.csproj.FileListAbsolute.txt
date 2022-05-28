@@ -1,0 +1,15 @@
+C:\Users\ethan\Desktop\School\School\jumpergame\bin\Debug\net6.0\jumpergame.exe
+C:\Users\ethan\Desktop\School\School\jumpergame\bin\Debug\net6.0\jumpergame.deps.json
+C:\Users\ethan\Desktop\School\School\jumpergame\bin\Debug\net6.0\jumpergame.runtimeconfig.json
+C:\Users\ethan\Desktop\School\School\jumpergame\bin\Debug\net6.0\jumpergame.dll
+C:\Users\ethan\Desktop\School\School\jumpergame\bin\Debug\net6.0\jumpergame.pdb
+C:\Users\ethan\Desktop\School\School\jumpergame\obj\Debug\net6.0\jumpergame.csproj.AssemblyReference.cache
+C:\Users\ethan\Desktop\School\School\jumpergame\obj\Debug\net6.0\jumpergame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ethan\Desktop\School\School\jumpergame\obj\Debug\net6.0\jumpergame.AssemblyInfoInputs.cache
+C:\Users\ethan\Desktop\School\School\jumpergame\obj\Debug\net6.0\jumpergame.AssemblyInfo.cs
+C:\Users\ethan\Desktop\School\School\jumpergame\obj\Debug\net6.0\jumpergame.csproj.CoreCompileInputs.cache
+C:\Users\ethan\Desktop\School\School\jumpergame\obj\Debug\net6.0\jumpergame.dll
+C:\Users\ethan\Desktop\School\School\jumpergame\obj\Debug\net6.0\refint\jumpergame.dll
+C:\Users\ethan\Desktop\School\School\jumpergame\obj\Debug\net6.0\jumpergame.pdb
+C:\Users\ethan\Desktop\School\School\jumpergame\obj\Debug\net6.0\jumpergame.genruntimeconfig.cache
+C:\Users\ethan\Desktop\School\School\jumpergame\obj\Debug\net6.0\ref\jumpergame.dll
