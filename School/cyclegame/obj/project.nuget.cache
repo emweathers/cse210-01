@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jXQbVyBPBTd60r69LBVMbDm/eeDG+Fvba2xZ00FiCW+CllxAz12MO84D7UYlro5n14KqY91sw+bSFyrgF6Dv0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ethan\\Desktop\\School\\School\\cyclegame\\cyclegame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ethan\\.nuget\\packages\\raylib-cs\\4.0.0.1\\raylib-cs.4.0.0.1.nupkg.sha512",
+    "C:\\Users\\ethan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
