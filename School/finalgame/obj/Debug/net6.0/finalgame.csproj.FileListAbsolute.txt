@@ -1,0 +1,15 @@
+C:\Users\ethan\Desktop\School\School\finalgame\bin\Debug\net6.0\finalgame.exe
+C:\Users\ethan\Desktop\School\School\finalgame\bin\Debug\net6.0\finalgame.deps.json
+C:\Users\ethan\Desktop\School\School\finalgame\bin\Debug\net6.0\finalgame.runtimeconfig.json
+C:\Users\ethan\Desktop\School\School\finalgame\bin\Debug\net6.0\finalgame.dll
+C:\Users\ethan\Desktop\School\School\finalgame\bin\Debug\net6.0\finalgame.pdb
+C:\Users\ethan\Desktop\School\School\finalgame\obj\Debug\net6.0\finalgame.csproj.AssemblyReference.cache
+C:\Users\ethan\Desktop\School\School\finalgame\obj\Debug\net6.0\finalgame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ethan\Desktop\School\School\finalgame\obj\Debug\net6.0\finalgame.AssemblyInfoInputs.cache
+C:\Users\ethan\Desktop\School\School\finalgame\obj\Debug\net6.0\finalgame.AssemblyInfo.cs
+C:\Users\ethan\Desktop\School\School\finalgame\obj\Debug\net6.0\finalgame.csproj.CoreCompileInputs.cache
+C:\Users\ethan\Desktop\School\School\finalgame\obj\Debug\net6.0\finalgame.dll
+C:\Users\ethan\Desktop\School\School\finalgame\obj\Debug\net6.0\refint\finalgame.dll
+C:\Users\ethan\Desktop\School\School\finalgame\obj\Debug\net6.0\finalgame.pdb
+C:\Users\ethan\Desktop\School\School\finalgame\obj\Debug\net6.0\finalgame.genruntimeconfig.cache
+C:\Users\ethan\Desktop\School\School\finalgame\obj\Debug\net6.0\ref\finalgame.dll
